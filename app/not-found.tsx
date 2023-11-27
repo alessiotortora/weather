@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 
 export default function Custom404() {
   return (
@@ -17,6 +18,7 @@ export default function Custom404() {
           </span>
         </p>
       </div>
+      <Footer />
     </>
   );
 }
