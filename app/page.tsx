@@ -1,15 +1,14 @@
-
-import Card from "./components/card";
-import { ModeToggle } from "./components/darkMode";
+import { BounceLoader } from "react-spinners";
+import Favorites from "./components/favorites";
+import Navbar from "./components/navbar";
 import Search from "./components/search";
 
 export default async function Home() {
- 
   return (
     <div>
-      <ModeToggle />
+      <Navbar />
       <Search />
-      
+      <Favorites />
     </div>
   );
 }
