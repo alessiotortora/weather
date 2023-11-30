@@ -107,7 +107,7 @@ export default function WeatherCard({ weather, data }: WeatherCardProps) {
         </div>
         <p>{condition}</p>
         <p>{celsius} Celsius</p>
-        <p>{feelsLike} Celsius</p>
+        <p>{feelsLike} Feels like</p>
       </CardContent>
       <CardFooter className="flex flex-col">
         <div className="flex gap-x-2">
